@@ -2,6 +2,7 @@ var Home = location.href,
     Pages = 4,
     xhr,
     xhrUrl = '';
+var ReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 var Diaspora = {
     L: function(url, f, err) {
@@ -241,7 +242,9 @@ $(function() {
             setTimeout(function() {
                 $('html, body').removeClass('loading')
             }, 1000)
-            $('#mark').parallax()
+            if (!ReducedMotion) {
+                $('#mark').parallax()
+            }
             var vibrant = new Vibrant(cover.t[0]);
             var swatches = vibrant.swatches()
             if (swatches['DarkVibrant']) {
@@ -301,6 +304,12 @@ $(function() {
     $(window).on('touchmove', function(e) {
         if ($('body').hasClass('mu')) {
             e.preventDefault()
+        }
+    })
+    $('.switchmenu').on('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            $(this).trigger('click');
         }
     })
     $('body').on('click', function(e) {
@@ -496,6 +505,5 @@ $(function() {
     if (comment.data('ae') == true){
         comment.click();
     }
-    console.log("%c Github %c","background:#24272A; color:#ffffff","","https://github.com/Fechin/hexo-theme-diaspora")
 })
 
