@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LMink 的博客</title>
+  
+  
+  <link href="https://lmink-ex.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://lmink-ex.github.io/"/>
+  <updated>2019-10-20T05:16:53.000Z</updated>
+  <id>https://lmink-ex.github.io/</id>
+  
+  <author>
+    <name>lmink</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客路の始</title>
+    <link href="https://lmink-ex.github.io/2019/08/23/%E5%8D%9A%E5%AE%A2%E4%B9%8B%E8%B7%AF%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+    <id>https://lmink-ex.github.io/2019/08/23/%E5%8D%9A%E5%AE%A2%E4%B9%8B%E8%B7%AF%E7%9A%84%E5%BC%80%E5%A7%8B/</id>
+    <published>2019-08-23T00:50:53.000Z</published>
+    <updated>2019-10-20T05:16:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<center>博客路の始</center><p>&emsp;&emsp;写博客这件事我蓄谋已久。早在大一下学期，我想清楚了一点自己的本性与自己的定位时，就已经萌生除了写博客记录自己学习经历的想法，但我仍然输给了自己的惰性与写博客的“重重困难”。所幸大二下学期，我在极客时间听说了皓子叔的 ARTS 打卡，花费了巨资（199）买了皓子叔的《<a href="https://time.geekbang.org/column/intro/48">左耳听风</a>》，加入了 ARTS 打卡群，然而自己又以各类琐事为借口，推到了大三的如今。回想之前的三年，自己无疑时失败的，痛定思痛于是有了我的博客之路。</p><p>&emsp;&emsp;写博客的主要目的是希望记录与分享，当然对于我一个水平一班的本科生来说无疑记录为主，但自己有时也希望获得如同高中时代给别人讲题时的满足感，还有一个目的就是希望博客能在未来帮到自己。</p><hr><p>&emsp;&emsp;博客的种类我大致分为 3 类，分别是 ARTS 打卡、头脑风暴和琐碎记事：</p><ol><li><strong><em>ARTS打卡</em></strong>，这应该会是我博客的主要内容，基于皓子叔原版的 ARTS 我做了些许修改，不变的是一周一更，目标是一年，结束时也刚好到考研前的冲刺阶段。<ul><li><em>Algorithm</em> 一道 leetcode 算法题 + 一道灰灰考研每日一题</li><li><em>Review</em> 课本外的书籍一章以上内容分享</li><li><em>Tip</em> 至少一个技术技巧</li><li><em>Share</em> 极客时间课程思考分享</li></ul></li><li><strong><em>头脑风暴</em></strong>，记录自己以本科生的角度看时事的思考与吐槽，只为伯君一笑。</li><li><strong><em>琐碎记事</em></strong>，记录一些踩坑的经过与解决过程，偶尔也会分享一些个人爱好。</li></ol><hr><p>&emsp;&emsp;现在的平台是 Hexo + github，后续也会尝试 Solo + 域名的方式，转投到 CSDN 等博客网址也有可能。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;center&gt;博客路の始&lt;/center&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;写博客这件事我蓄谋已久。早在大一下学期，我想清楚了一点自己的本性与自己的定位时，就已经萌生除了写博客记录自己学习经历的想法，但我仍然输给了自己的惰性与写博客的“重重困难”。所幸大二下学期，我在极客时间听</summary>
+      
+    
+    
+    
+    <category term="分类1" scheme="https://lmink-ex.github.io/categories/%E5%88%86%E7%B1%BB1/"/>
+    
+    <category term="分类2" scheme="https://lmink-ex.github.io/categories/%E5%88%86%E7%B1%BB1/%E5%88%86%E7%B1%BB2/"/>
+    
+    
+    <category term="标签1" scheme="https://lmink-ex.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+    <category term="标签2" scheme="https://lmink-ex.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+  </entry>
+  
+</feed>
