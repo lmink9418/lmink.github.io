@@ -1,0 +1,24 @@
+{
+  "name": "hexo-theme-diaspora",
+  "version": "1.0.1",
+  "description": "A clean, beautiful, responsive theme for Hexo.",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen-qingyu/hexo-theme-diaspora.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "diaspora"
+  ],
+  "author": "Fechin Li, Qingyu Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chen-qingyu/hexo-theme-diaspora/issues"
+  },
+  "homepage": "https://github.com/chen-qingyu/hexo-theme-diaspora#readme"
+}

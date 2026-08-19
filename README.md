@@ -1,30 +1,28 @@
-# LMink 的博客
+# LMink 的博客（Hexo 源码）
 
-这是一个由 Hexo + Diaspora 主题生成的静态博客站点，部署于 GitHub Pages。
+这是博客的 Hexo 源码分支，生成结果会发布到 `master` 分支供 GitHub Pages 使用。
 
 ## 本地预览
 
 ```bash
-python -m http.server 8080
+npm install
+npm run server
 ```
 
-然后访问 `http://localhost:8080`。
+然后访问 `http://localhost:4000`。
 
-## 目录
+## 发布
 
-- `index.html`：首页
-- `archives/`、`categories/`、`tags/`：归档、分类、标签页面
-- `2019/`：文章页面
-- `css/`、`js/`：主题样式与交互脚本
-- `live2dw/`：Live2D 看板娘资源
-- `photoswipe/`：文章图片灯箱资源
+```bash
+npm run deploy
+```
 
-## 本次优化
+该命令会生成站点并推送到 `master` 分支。
 
-- 修复了全部 HTML 页面的文档结构
-- 补齐中文语言、描述、主题色等元信息
-- 内链不再强制新窗口打开
-- 封面图片尺寸与真实文件对齐
-- 移动端禁用 Live2D 并延迟加载桌面端 Live2D
-- 增加键盘可用的菜单按钮、焦点样式和“跳到主要内容”入口
-- 适配 `prefers-reduced-motion`，减少不必要的动画
+## 写文章
+
+```bash
+npm run new "文章标题"
+```
+
+文章保存在 `source/_posts/` 下，使用 Markdown 编写。
